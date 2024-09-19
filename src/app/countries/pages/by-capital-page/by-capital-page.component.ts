@@ -28,7 +28,7 @@ export class ByCapitalPageComponent implements OnInit{
     this.countriesService.searchAPI(term, '/capital/')
       .subscribe(countries => {
         this.countries = countries;
-        this.isLoading = false
+        this.isLoading = false;
       });
   }
 }
